@@ -4,8 +4,7 @@
   "description": "Contact Card App",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "npm start"
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
