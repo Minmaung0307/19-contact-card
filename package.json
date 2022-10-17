@@ -1,0 +1,23 @@
+{
+  "name": "19-contact-card",
+  "version": "1.0.0",
+  "description": "This is Contact Card App",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minmaung0307/contact-card_19.git"
+  },
+  "keywords": [
+    "npm",
+    "start"
+  ],
+  "author": "Min Maung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Minmaung0307/contact-card_19/issues"
+  },
+  "homepage": "https://github.com/Minmaung0307/contact-card_19#readme"
+}
