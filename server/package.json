@@ -1,8 +1,8 @@
 {
-  "name": "server",
+  "name": "contact-server",
   "version": "1.0.0",
   "description": "Contact Card App",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "server": "node server.js"
   },
@@ -10,10 +10,7 @@
     "type": "git",
     "url": "@Minmaung0307"
   },
-  "keywords": [
-    "npm",
-    "start"
-  ],
+  "keywords": [],
   "author": "Min Maung",
   "license": "ISC",
   "dependencies": {
