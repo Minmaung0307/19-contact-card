@@ -4,7 +4,7 @@
   "description": "Contact Card App",
   "private": true,
   "scripts": {
-    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run build && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server node server.js --ignore client",
     "build": "cd client && npm run build",
@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/Minmaung0307/contact-card_19#readme",
   "dependencies": {
-    "concurrently": "^7.4.0"
+    "concurrently": "^7.4.0",
+    "regenerator-runtime": "^0.13.10"
   },
   "engines": {
     "node": "17.x"
